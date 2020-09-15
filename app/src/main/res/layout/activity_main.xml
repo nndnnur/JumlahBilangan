@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="361dp"
+        android:layout_height="39dp"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:text="Menjumlahkan Dua Bilangan"
+        android:textSize="20dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="459dp"
+        android:text="Masukkan Bilangan Pertama"
+        android:layout_marginLeft="55dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+    <EditText
+        android:id="@+id/txtBil1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="55dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="359dp"
+        android:layout_marginLeft="55dp"
+        android:text="Masukkan Bilangan Kedua"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+    <EditText
+        android:id="@+id/txtBil2"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="55dp"/>
+    <Button
+        android:id="@+id/btnhasil"
+        android:layout_width="130dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="355dp"
+        android:layout_marginLeft="108dp"
+        android:text="Hitung Bilangan"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="160dp"
+        android:layout_marginLeft="124dp"
+        android:text="Hasil Penjumlahan"/>
+    <EditText
+        android:id="@+id/jumlah"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="480dp"
+        android:layout_marginLeft="57dp"/>
+
+
+
+</RelativeLayout>
